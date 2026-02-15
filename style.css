@@ -97,8 +97,11 @@ p {
 }
 
 @media (max-width: 768px) {
-    img {
+    .index-image {
         display: none;
+    }
+    img {
+        margin: 15px auto;
     }
     body {
         text-align: center;
